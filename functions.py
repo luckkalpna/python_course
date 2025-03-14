@@ -19,9 +19,17 @@
 
 # ------------Functions with arguments---------
 
-def goodDay(name):
-  print("Good Day, " + name)
+# def goodDay(name):
+#   print("Good Day, " + name)
 
-goodDay("Kalpana")
-goodDay("Anaya")
-goodDay("Bhargavi")
+# goodDay("Kalpana")
+# goodDay("Anaya")
+# goodDay("Bhargavi")
+
+def goodDay(name, ending):
+  print("Good Day, " + name)
+  print(ending)
+  return "Done"
+
+a = goodDay("Kalpana", "Thank You")
+print(a)
