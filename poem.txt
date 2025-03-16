@@ -1,0 +1,4 @@
+Hello I am text which is inside the file.txt
+
+twinkle twinkle little star
+this is my poen file
